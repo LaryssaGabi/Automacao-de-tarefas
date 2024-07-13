@@ -2,7 +2,7 @@
 
 Este projeto utiliza Python para automatizar o preenchimento de um formulário web usando a biblioteca `pyautogui`. O script lê dados de um arquivo CSV e insere esses dados em um formulário online.
 
-## Funcionalidades
+### Funcionalidades
 
 - Abre o Google Chrome.
 - Navega até a página de login.
@@ -11,14 +11,14 @@ Este projeto utiliza Python para automatizar o preenchimento de um formulário w
 - Preenche o formulário com os dados lidos.
 - Cadastrar os produtos
 
-## Requisitos
+### Requisitos
 
 - Python 3.x
 - Bibliotecas Python:
   - `pyautogui`
   - `pandas`
 
-## Prepare o arquivo produtos.csv com os seguintes cabeçalhos:
+### Prepare o arquivo produtos.csv com os seguintes cabeçalhos:
 
 * `codigo`
 * `marca`
@@ -27,7 +27,7 @@ Este projeto utiliza Python para automatizar o preenchimento de um formulário w
 * `custo`
 * `obs`
 
-  ## Execute o script:
+### Execute o script:
 
 bash
 ```
